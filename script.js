@@ -78,7 +78,7 @@ function bayar() {
   });
   pesan += `Total: Rp${total.toLocaleString()}\n\nSilakan transfer ke Dana: 083822176542 atau scan QRIS berikut.\n\nSetelah transfer, kirim bukti pembayaran via WhatsApp.`;
 
-  const nomorWhatsApp = "6281936513894"; // ganti nomor tujuan WhatsApp tanpa tanda '+'
+  const nomorWhatsApp = "639686088926"; // ganti nomor tujuan WhatsApp tanpa tanda '+'
   const urlWA = `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
   window.open(urlWA, "_blank");
 }
