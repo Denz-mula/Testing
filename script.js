@@ -34,7 +34,9 @@ function tampilkanProduk() {
     div.innerHTML = `
       <h3>${p.nama}</h3>
       <p>Harga: ${hargaText}</p>
-      <p class="chat-admin">Contoh Produk? Chat Admin</p>
+      <p class="chat-admin">
+  <a href="https://wa.me/639686088926" target="_blank">Contoh Produk? Chat Admin</a>
+</p>
       <button onclick="tambahKeKeranjang(${p.id})">Tambah ke Keranjang</button>
     `;
     containerProduk.appendChild(div);
